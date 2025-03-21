@@ -1,2 +1,4 @@
 pillow
 pynput
+pytesseract
+pyperclip

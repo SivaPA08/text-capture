@@ -1,19 +1,16 @@
-from fullscreen import FullScreen as fs
 import tkinter as tk
-from PIL import ImageGrab, ImageTk
-from pynput import keyboard #type: ignore
+from fullscreen import FullScreen
 
 class Launch:
     def __init__(self):
         pass
 
-    def launch_screenshot_tool():
-        root=tk.Tk()
-        root.attributes("-fullscreen",True)
-        app=fs(root)
+    def launch_screenshot_tool(self):
+        root = tk.Tk()
+        root.attributes("-fullscreen", True)
+        app = FullScreen(root)
         root.mainloop()
-    
-    def on_activate():
+
+    def on_activate(self):
         print("Hotkey pressed! Launching screenshot tool...")
-        listener.stop()  # Stop listening for the hotkey
-        launch_screenshot_tool()
+        self.launch_screenshot_tool()
