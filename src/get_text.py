@@ -17,4 +17,4 @@ class Text:
     
         text = pt.image_to_string(img)
         pyperclip.copy(text)
-        print("Extracted text copied to clipboard.")
+        print("copied to clipboard.")

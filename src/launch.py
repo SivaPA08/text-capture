@@ -12,5 +12,5 @@ class Launch:
         root.mainloop()
 
     def on_activate(self):
-        print("Hotkey pressed! Launching screenshot tool...")
+        print("hotkey pressed successfully")
         self.launch_screenshot_tool()

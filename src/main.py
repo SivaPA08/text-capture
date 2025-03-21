@@ -2,7 +2,8 @@ from launch import Launch
 from pynput import keyboard  # type: ignore
 
 hotkey = '<cmd>+<ctrl>+<shift>+p'
-print(f"Waiting for hotkey {hotkey} to launch screenshot tool...")
+print("Here <cmd> means windows key")
+print(f"Press the {hotkey} to start")
 
 launch = Launch()
 

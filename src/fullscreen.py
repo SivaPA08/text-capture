@@ -44,7 +44,7 @@ class FullScreen:
         #croping
         cropped_image = self.fullscreen_image.crop((x1, y1, x2, y2))
         cropped_image.save("screenshot.png")
-        print("Screenshot saved as 'screenshot.png'")
+        print("saved as screenshot.png")
         from get_text import Text as txt
 
         txt.extract_text()
