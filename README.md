@@ -1,2 +1,4 @@
-# text-capture
-Captures screen regions, extracts text and copies it to the clipboard
+in linux distros
+run:
+chmod +x run.sh
+./run.sh
